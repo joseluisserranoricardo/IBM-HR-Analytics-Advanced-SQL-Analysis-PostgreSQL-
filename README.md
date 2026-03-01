@@ -22,9 +22,9 @@ Database size: **1,470 employees**
 
 Dataset: IBM HR Analytics (CSV imported into PostgreSQL)
 
-(https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) 
+https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
-Main table:
+
 
 
 ---
