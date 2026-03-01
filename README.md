@@ -60,7 +60,7 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ![department](https://github.com/user-attachments/assets/ef186b10-61c2-42c8-acba-fd541a4e32a2)
 
-### 🔎 Insight![Uploading department.jpg…]()
+### 🔎 Insight
 
 
 - Sales has the highest attrition rate.
