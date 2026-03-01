@@ -58,13 +58,10 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ### 🏢 Attrition by Department
 
-| Department               | Attrition Rate (%) |
-|--------------------------|-------------------|
-| Sales                    | 20.63 |
-| Human Resources          | 19.05 |
-| Research & Development   | 13.84 |
+![department](https://github.com/user-attachments/assets/ef186b10-61c2-42c8-acba-fd541a4e32a2)
 
-### 🔎 Insight
+### 🔎 Insight![Uploading department.jpg…]()
+
 
 - Sales has the highest attrition rate.
 - Research & Development shows stronger retention.
@@ -74,17 +71,7 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ### 👔 Attrition by Job Role
 
-| Job Role                 | Attrition Rate (%) | Total Employees |
-|--------------------------|-------------------|----------------|
-| Sales Representative     | 39.76 | 83 |
-| Laboratory Technician    | 23.94 | 259 |
-| Human Resources          | 23.08 | 52 |
-| Sales Executive          | 17.48 | 326 |
-| Research Scientist       | 16.10 | 292 |
-| Manufacturing Director   | 6.90  | 145 |
-| Healthcare Representative| 6.87  | 131 |
-| Manager                  | 4.90  | 102 |
-| Research Director        | 2.50  | 80 |
+![JobRole](https://github.com/user-attachments/assets/7a46c406-cbfa-424c-895f-3d390443d341)
 
 ### 🔎 Insight
 
@@ -96,10 +83,7 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ### ⏳ Attrition by Overtime
 
-| Overtime | Attrition Rate (%) |
-|----------|-------------------|
-| Yes      | 30.53 |
-| No       | 10.44 |
+![Overtime](https://github.com/user-attachments/assets/f68d126d-1c93-4d38-a8ed-8605be57d959)
 
 ### 🔎 Insight
 
@@ -119,6 +103,35 @@ Lower salary quartiles show significantly higher attrition rates.
 ### CTE + JOIN Example (Department Analysis)
 
 ![cte_and_join](https://github.com/user-attachments/assets/810d3ce9-604b-42a3-b5b9-d47eb32b7ec7)
+
+---
+
+### 💰 Salary Ranking Within Each Department
+
+To understand internal salary structure, a ranking analysis was performed to identify the highest-paid employees within each department.
+
+The analysis ranks employees by monthly income inside their respective department.
+
+![window_function](https://github.com/user-attachments/assets/e59d32a5-0d44-4830-89b8-4b0a3272fe66)
+
+#### 🔎 What This Shows
+
+- Identifies top earners per department
+- Reveals salary distribution gaps
+- Helps understand internal compensation hierarchy
+- Demonstrates use of advanced SQL window functions (RANK with PARTITION BY)
+
+### 📈 Business Insight
+
+- Salary structure varies significantly within departments.
+- This type of analysis helps HR identify:
+  - Compensation inequality
+  - Promotion alignment
+  - Pay compression issues
+  - Leadership salary positioning
+
+This analysis adds depth beyond attrition metrics by exploring internal pay dynamics.
+
 
 ## 🚀 Advanced SQL Concepts Used
 
