@@ -44,22 +44,79 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 - Attrition Rate: 16.12%
 
-### 2️⃣ Average Years at Company
+## 📊 Attrition Analysis by Key Factors
+
+### Average Years at Company
 
 ![avg_years](https://github.com/user-attachments/assets/ee082d29-a09f-418a-91fd-c0d495d1c1a1)
 
-### 3️⃣ Average Monthly Income
+### Average Monthly Income
 
 ![avg_salary](https://github.com/user-attachments/assets/8c8f1b1f-4f3e-48f8-a7ed-df761c9bf464)
 
-### 4️⃣ Attrition by Salary Quartile (NTILE)
+---
+
+### 🏢 Attrition by Department
+
+| Department               | Attrition Rate (%) |
+|--------------------------|-------------------|
+| Sales                    | 20.63 |
+| Human Resources          | 19.05 |
+| Research & Development   | 13.84 |
+
+### 🔎 Insight
+
+- Sales has the highest attrition rate.
+- Research & Development shows stronger retention.
+- Revenue-generating departments appear more vulnerable to turnover.
+
+---
+
+### 👔 Attrition by Job Role
+
+| Job Role                 | Attrition Rate (%) | Total Employees |
+|--------------------------|-------------------|----------------|
+| Sales Representative     | 39.76 | 83 |
+| Laboratory Technician    | 23.94 | 259 |
+| Human Resources          | 23.08 | 52 |
+| Sales Executive          | 17.48 | 326 |
+| Research Scientist       | 16.10 | 292 |
+| Manufacturing Director   | 6.90  | 145 |
+| Healthcare Representative| 6.87  | 131 |
+| Manager                  | 4.90  | 102 |
+| Research Director        | 2.50  | 80 |
+
+### 🔎 Insight
+
+- Sales Representatives show extremely high attrition (~40%).
+- Entry/mid-level operational roles have significantly higher turnover.
+- Leadership and director roles demonstrate strong retention.
+
+---
+
+### ⏳ Attrition by Overtime
+
+| Overtime | Attrition Rate (%) |
+|----------|-------------------|
+| Yes      | 30.53 |
+| No       | 10.44 |
+
+### 🔎 Insight
+
+Employees working overtime are **almost 3x more likely to leave**.
+
+Overtime appears to be one of the strongest attrition drivers in the dataset.
+
+---
+
+### Attrition by Salary Quartile (NTILE)
 
 ![Attrition by salary quartile](https://github.com/user-attachments/assets/29ea0d77-3f67-4bf6-8abd-e8639e03b0c5)
 
 #### Insight:
 Lower salary quartiles show significantly higher attrition rates.
 
-### 5️⃣ CTE + JOIN Example (Department Analysis)
+### CTE + JOIN Example (Department Analysis)
 
 ![cte_and_join](https://github.com/user-attachments/assets/810d3ce9-604b-42a3-b5b9-d47eb32b7ec7)
 
@@ -81,7 +138,15 @@ Performance optimization with indexes
 
 - Tenure average is 7 years, indicating medium-term retention.
 
-- Compensation appears to be a strong turnover driver.
+- Compensation level and job role strongly influence attrition.
+  
+- Sales-related roles are the most vulnerable to turnover.
+
+- Overtime is a critical predictor of employee exit.
+  
+- Senior positions demonstrate significantly lower attrition rates.
+
+These findings suggest that workload management and compensation structure could significantly impact employee retention.
 
 ## 🛠 Technologies Used
 
